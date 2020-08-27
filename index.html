@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--     <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+    <title>Tienda Gutierrez</title>
+</head>
+
+<body class="theme">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="link del wha"
+        class="float-icon" target="_blank">
+        <i class="fa fa-whatsapp float"></i>
+    </a>
+
+
+    <header class="header-area">
+
+        <!--         <div class="rowmc">
+
+            <div class="main-menu">
+                <form class="search" action="search.php"> 
+                    <input name="q" placeholder="Search..." type="search">
+                </form>
+            </div>
+        </div> -->
+
+        <div class="row main-menu">
+            <div class="">
+                <span class="fa fa-search icon-search"></span>
+                <input type="text" id="Filter" class="txtbox search" onkeyup="CardsFilter()"
+                    placeholder="Buscar Producto">
+            </div>
+        </div>
+
+
+
+        <div class="text ">
+            <h1 class="tittle">los mejores productos los encuentras solo aqui</h1>
+            <h2 class="tittle"></h2>
+        </div>
+
+
+
+        <div class="waves">
+            <div class="waves-float" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                    preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M-1.97,111.02 C263.82,177.13 352.42,3.47 500.84,149.50 L500.84,152.45 L0.00,150.00 Z"
+                        style="stroke: none; fill: #ffffff;"></path>
+                </svg></div>
+        </div>
+    </header>
+
+    <div class="container-full buy">
+        <div class="row mc txt ">
+            <div class="col-6">
+                <h3>Compra desde la comodidad de tu casa todos los articulos que necesites para tu hogar</h3>
+            </div>
+            <div class="col-6">
+                <img src="assets/img/buy.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class='container product'>
+
+        <div class="row">
+            <div class='col'>
+                <h3 class="title txt">LO MEJOR PARA EL HOGAR</h3>
+                <div class="" id="cards-filter">
+
+                    <div class="cards">
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Freezer
+                                </h5>
+                                <p class="product-price">
+                                    L7,509
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-02.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Niquilada 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L8,652
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-03.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    lavadora
+                                </h5>
+                                <p class="product-price">
+                                    L9,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-04.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Espaciosa
+                                </h5>
+                                <p class="product-price">
+                                    L12,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-05.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora con Dispensador de Agua 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L10,589
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Aire Acondicionado
+                                </h5>
+                                <p class="product-price">
+                                    L12,256
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Freezer
+                                </h5>
+                                <p class="product-price">
+                                    L7,509
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-02.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Niquilada 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L8,652
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-03.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    lavadora
+                                </h5>
+                                <p class="product-price">
+                                    L9,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-04.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Espaciosa
+                                </h5>
+                                <p class="product-price">
+                                    L12,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-05.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora con Dispensador de Agua 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L10,589
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Aire Acondicionado
+                                </h5>
+                                <p class="product-price">
+                                    L12,256
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Freezer
+                                </h5>
+                                <p class="product-price">
+                                    L7,509
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-02.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Niquilada 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L8,652
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-03.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    lavadora
+                                </h5>
+                                <p class="product-price">
+                                    L9,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-04.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Espaciosa
+                                </h5>
+                                <p class="product-price">
+                                    L12,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-05.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora con Dispensador de Agua 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L10,589
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Aire Acondicionado
+                                </h5>
+                                <p class="product-price">
+                                    L12,256
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Freezer
+                                </h5>
+                                <p class="product-price">
+                                    L7,509
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-02.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Niquilada 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L8,652
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-03.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    lavadora
+                                </h5>
+                                <p class="product-price">
+                                    L9,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-04.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Espaciosa
+                                </h5>
+                                <p class="product-price">
+                                    L12,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-05.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora con Dispensador de Agua 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L10,589
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Aire Acondicionado
+                                </h5>
+                                <p class="product-price">
+                                    L12,256
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Freezer
+                                </h5>
+                                <p class="product-price">
+                                    L7,509
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-02.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Niquilada 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L8,652
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-03.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    lavadora
+                                </h5>
+                                <p class="product-price">
+                                    L9,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-04.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora Espaciosa
+                                </h5>
+                                <p class="product-price">
+                                    L12,689
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-05.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Refrigeradora con Dispensador de Agua 1 Puerta
+                                </h5>
+                                <p class="product-price">
+                                    L10,589
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cards-item">
+                            <div class="card-header">
+                                <img src="assets/img/product/P-01.jpg" alt="">
+                            </div>
+                            <div class="card-content">
+                                <h5 class="product-name card-title">
+                                    Aire Acondicionado
+                                </h5>
+                                <p class="product-price">
+                                    L12,256
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-full">
+        <div id="slider-wrapper">
+            <figure id="slider">
+                <img src="http://lorempixel.com/1200/300" alt="eyes">
+                <img src="http://lorempixel.com/1200/300" alt="lou">
+                <img src="http://lorempixel.com/1200/300" alt="lucie-2">
+                <img src="http://lorempixel.com/1200/300" alt="lucie">
+            </figure>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title txt">Contactanos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4"><i class="fab fa-whatsapp"></i>
+                    <a href="#">+504 0000-0000</a></div>
+                <div class="col-4"><i class="fas fa-phone"></i>
+                    <a href="#">+504 0000-0000</a></div>
+                <div class="col-4"><i class="fas fa-at"></i>
+                    <a href="#">variedadesgutierrez@gmail.com</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--  Jquery js file  -->
+    <script src="assets/js/jquery-min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="assets/js/Main.js"> </script>
+
+    <!-- font awesonme -->
+    <script src="https://kit.fontawesome.com/1f52c15500.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
